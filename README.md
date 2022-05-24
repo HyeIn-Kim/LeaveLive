@@ -92,7 +92,7 @@
 ## 기능
 
 <p align="center">
-    <img src="https://github.com/dmswl0311/LeaveLive/blob/master/img/1%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B0%8F%EB%A1%9C%EA%B7%B8%EC%9D%B8.PNG" width="1000px" />
+    <img src="img/1%EB%9E%9C%EB%94%A9%ED%8E%98%EC%9D%B4%EC%A7%80%EB%B0%8F%EB%A1%9C%EA%B7%B8%EC%9D%B8.PNG" width="1000px" />
     <img src="https://github.com/dmswl0311/LeaveLive/blob/master/img/2%EB%A9%94%EC%9D%B8.PNG" width="1000px" />
     <img src="https://github.com/dmswl0311/LeaveLive/blob/master/img/3%EC%97%AC%ED%96%89%EC%A7%80%EC%84%A0%ED%83%9D%EB%B0%8F%ED%85%8C%EC%8A%A4%ED%8A%B8.PNG" width="1000px" />
     <img src="https://github.com/dmswl0311/LeaveLive/blob/master/img/4%EC%97%AC%ED%96%89%EC%A7%80%EB%A9%94%EC%9D%B8.PNG" width="1000px" />
