@@ -111,6 +111,50 @@
     <img src="https://github.com/dmswl0311/LeaveLive/blob/master/img/%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90.png" width="800px" />
 </p>
 
+## 배포
+### 버전 정보
+
+- Ubuntu 20.04
+- NodeJS 16.15.0
+- NPM 8.5.5
+- Java OpenJDK 11.0.15
+- Spring Boot 2.6.6, 2.6.7
+- Visual Stuido Code 1.67.2
+- Intellij Ultimate 2021.3
+
+### 소스코드 다운로드
+
+```bash
+git clone https://lab.ssafy.com/s06-final/S06P31C105.git
+```
+
+### 프론트엔드
+
+```bash
+cd frontend
+npm install
+npm run build
+npm run start
+```
+
+### 백엔드
+
+```bash
+cd backend
+cd $DIRECTORY_TO_BUILD # 서버가 여러개이므로 빌드할 서버마다 폴더로 이동하여 진행
+chmod +x gradlew
+./gradlew bootJar
+java -jar $DIRECTORY_TO_BUILD-0.0.1-SNAPSHOT.jar
+```
+
+### 배포시 특이사항
+
+- 여섯개의 스프링 부트 서버로 구성되어 있고 Next.js를 활용했기 때문에 하나의 Node.js 서버가 구동되므로 총 일곱개의 서버 구동이 필요함
+
+### DB 접속 정보
+
+- 각 application.yml에 정의
+
 ##  협업
 
 ### Git convention
@@ -132,8 +176,6 @@ git commit -m "[S06P12C203-85] chore: Jira 연동 테스트"
 ```
 
 ### 그라운드 룰
-
----
 
 ❤ 스프린트는 주 1회 월요일에 진행
 
